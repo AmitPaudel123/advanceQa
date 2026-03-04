@@ -1,4 +1,4 @@
-import { uiFixture } from "../fixtures/uiFixture/auth.spec";
+import { uiFixture } from "../fixtures/uiFixture/auth.fixture";
 import { expect } from "@playwright/test";
 
 uiFixture("Add to cart updated", async ({ login }) => {
